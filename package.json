@@ -8,10 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:umd && npm run build:esm",
     "watch": "npm run watch:esm",
-    "watch:umd": "./node_modules/.bin/tsc --project ./tsconfig/tsconfig.umd.json --watch",
-    "watch:esm": "./node_modules/.bin/tsc --project ./tsconfig/tsconfig.esm.json --watch",
-    "build:umd": "./node_modules/.bin/tsc --project ./tsconfig/tsconfig.umd.json",
-    "build:esm": "./node_modules/.bin/tsc --project ./tsconfig/tsconfig.esm.json"
+    "watch:umd": "npx ./node_modules/.bin/tsc --project ./tsconfig/tsconfig.umd.json --watch",
+    "watch:esm": "npx ./node_modules/.bin/tsc --project ./tsconfig/tsconfig.esm.json --watch",
+    "build:umd": "npx ./node_modules/.bin/tsc --project ./tsconfig/tsconfig.umd.json",
+    "build:esm": "npx ./node_modules/.bin/tsc --project ./tsconfig/tsconfig.esm.json"
   },
   "repository": {
     "type": "git",
