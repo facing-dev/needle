@@ -1,0 +1,21 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:umd && npm run build:esm",
+    "build:umd": "./node_modules/.bin/tsc -outDir dist/umd -module UMD",
+    "build:esm": "./node_modules/.bin/tsc -outDir dist/esm -module ES6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facing-dev/template"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.3.3"
+  }
+}
