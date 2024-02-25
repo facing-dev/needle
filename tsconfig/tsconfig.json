@@ -16,7 +16,8 @@
         "declarationMap": true,
         "noUnusedLocals": true
     },
-    "include": [
+    "files": [
         "../src/index.ts",
+        "../src/model/listToTree/index.ts",
     ]
 }
